@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ConfirmController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get("/",[ConfirmController::class,"index"]);
+Route::get("/confirm",[ConfirmController::class,"confirm"]);
+Route::get("/admin",[ConfirmController::class,"admin"]);
+Route::get("/thanks",[ConfirmController::class,"thanks"]);
+Route::get("/login",[ConfirmController::class,"login"]);
+Route::get("/register",[ConfirmController::class,"register"]);
