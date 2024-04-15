@@ -9,9 +9,9 @@
     </head>
     <body>
         <main>
-            <div class="thanks_ja">お問い合わせありがとうございました</div>
-            <div class="thanks_en">Thank you</div>
-            <button class="home__button" type="button" onclick="location.href={{route('index')}}">HOME</button>
+            <div class="thanks-ja">お問い合わせありがとうございました</div>
+            <p class="thanks-en">Thank you</p>
+            <a class="home-link" href="/">HOME</a>
         </main>
     </body>
 </html>

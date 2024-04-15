@@ -1,0 +1,22 @@
+.thanks-ja {
+    color: #BB7969;
+    font-size: 3rem;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.thanks-en {
+    color: #BB7969;
+    display: inline-block;
+    font-size: 20rem;
+    margin-top: -200px;
+    opacity: 0.5;
+    text-align: center;
+    vertical-align: middle;
+    width: 90%;
+}
+
+.home-link {
+    color: #82756A;
+    text-align: center;
+}
